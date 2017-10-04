@@ -91,7 +91,8 @@ final class PersistentActor extends AbstractPersistentActor {
 }
 
 /**
- * A message extractor that distributes integer messages across
+ * A message extractor that distributes integer messages over persistent actors in the shard region. The entity ID of
+ * persistent actors are equal to their persistence ID.
  */
 final class MessageExtractor implements ShardRegion.MessageExtractor {
 

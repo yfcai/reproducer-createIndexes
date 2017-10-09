@@ -2,6 +2,8 @@
 
 Minimal working example to send excessive amount of 'createIndexes' commands to MongoDB.
 
+The issue is fixed in akka-persistence-mongo plugin v2.0.4.
+
 ### Execution
 
 1. Start MongoDB on localhost at port 27017 configured to log all commands. Tested with MongoDB version 3.2 and 3.4 
